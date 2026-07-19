@@ -15,6 +15,7 @@ exibirTexto('p', "Escolha um número entre 1 e 10: ");
 
 let numerosSorteados = []; // Criação de Array. Pode incluir valor na declaração
 // ou não. Não precisa dizer o tamanho.
+//A
 function getNumeroSecreto() {
     let numeroEscolhido = parseInt(Math.random() * 10 + 1);
     if (numerosSorteados.length == 10) {
